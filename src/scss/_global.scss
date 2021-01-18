@@ -1,0 +1,301 @@
+$border-color: #dddddd;
+
+p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  word-break: break-all;
+  word-break: break-word;
+
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+}
+
+.border-1 {
+  border-width: 1px;
+  border-color: $border-color;
+  border-style: solid;
+}
+
+.vertical-scroll {
+  overflow-y: scroll;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.dont-show-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.dont-show-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.text-style {
+  background-color: white;
+  line-height: 1.5;
+  color: #4d4e53;
+}
+.float-button {
+  background-color: #ffffffa8;
+  position: sticky;
+  z-index: 1;
+  top: 8vh;
+}
+.cursor-hover:hover {
+  cursor: pointer;
+}
+.underline:hover {
+  text-decoration: underline;
+}
+.comment-btn {
+  color: #65676b;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.comment-text {
+  font-size: 9.4 rem;
+  color: #010416 !important;
+  line-height: 1.3333 !important;
+}
+.comment-user-text {
+  font-size: 8.1 rem !important;
+  color: #010416 !important;
+  line-height: 1.2308 !important;
+  font-weight: 600;
+}
+.timestamp {
+  font-size: 12px;
+  color: #65676b;
+}
+.size-12 {
+  font-size: 12px;
+}
+
+.size-13 {
+  font-size: 13px;
+}
+
+.size-14 {
+  font-size: 14px;
+}
+
+.size-15 {
+  font-size: 15px;
+}
+
+.size-16 {
+  font-size: 16px;
+}
+
+.size-20 {
+  font-size: 20px;
+}
+
+.size-22 {
+  font-size: 22px;
+}
+
+.line-height-1 {
+  line-height: 1;
+}
+
+.max-h-card {
+  max-height: 400px;
+}
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-viewport {
+  height: 100vh;
+}
+
+.h-sidepanel{
+  height: calc(100vh - 60px);
+}
+
+.w-full {
+  width: 100%;
+}
+
+.w-half {
+  width: 50%;
+}
+
+.w-3__5 {
+  width: 60% !important;
+}
+
+.w-2__5 {
+  width: 40%;
+}
+
+.w-viewport {
+  width: 100vw;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.w-side {
+  width: 26% !important;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-side {
+  max-width: 370px;
+}
+
+.max-w-content {
+  max-width: 742px;
+}
+
+.max-w-md {
+  max-width: 900px;
+}
+.max-w-lg {
+  max-width: 1024px;
+}
+
+.max-w-container {
+  max-width: 1800px;
+}
+
+.max-w-tight {
+  max-width: 620px;
+}
+.w-content {
+  width: 48% !important;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.fixed {
+  position: fixed;
+}
+
+.sticky {
+  position: sticky;
+}
+
+// this will help to put an offset to the main-container
+.top-60 {
+  top: 60px;
+}
+
+.card-custom-shadow {
+  box-shadow: 0px 3px 6px #00000028 !important;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+// esto es para que se vean mejor las letras pequenhas
+// .text-caption {
+//   letter-spacing: 0 !important;
+// }
+
+.v-overlay--active {
+  z-index: 202 !important;
+}
+
+.w-main-content {
+  justify-content: center;
+  width: calc(100vw - 840px);
+  // inside the center content
+  .main-content {
+    max-width: 880px;
+  }
+}
+
+.v-dialog:not(.v-dialog--fullscreen) {
+  max-height: 800px;
+  overflow: hidden;
+}
+
+.form-labels {
+  max-height: 600px;
+  overflow: auto;
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 20px;
+  background: #fff;
+  border-radius: 19px;
+  margin-bottom: 10px;
+  outline: none;
+}
+
+.outline-none {
+  outline: none;
+}
+
+.bottom-0 {
+  bottom: 0;
+}
+
+.right-0 {
+  right: 0
+}
+
+.left-0 {
+  left: 0
+}
+
+.top-0 {
+  top: 0
+}
+
+// z index
+.z-10 {
+  z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
+}
+
+.pointer-auto {
+  pointer-events: auto;
+}
+
+.leading-tight {
+  line-height: 1rem !important;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
